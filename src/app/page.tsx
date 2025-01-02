@@ -16,12 +16,12 @@ export default function Home() {
         className="mx-auto  shadow-[#732df5] shadow-xl"
       />
       <div className="mt-4 flex flex-col md:flex-row justify-center items-center gap-4">
-        <Link href="/clientSide-data-fetch">
+        <Link href="/clientSide">
           <button className="text-white h-16 w-52 bg-[#732df5] border border-gray-300 rounded-lg hover:motion-safe:animate-ping">
             Client Side Rendering
           </button>
         </Link>
-        <Link href="/serverSide-data-fetch">
+        <Link href="/serverSide">
           <button className="text-white h-16 w-52 hover:motion-safe:animate-ping bg-[#732df5] border border-gray-300 rounded-lg">
             Server Side Rendering
           </button>
